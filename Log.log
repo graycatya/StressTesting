@@ -1,0 +1,6 @@
+2019-09-20 | 09:12:23 | DEBUG | Msg: Thread this log LEVEL_DEBUG
+2019-09-20 | 09:12:23 | ALARM | Msg: Thread this log LEVEL_ALARM
+2019-09-20 | 09:12:23 | ERROR | Msg: Thread this log LEVEL_ERROR
+2019-09-20 | 09:12:23 | FATAL | Msg: Thread this log LEVEL_FATAL
+2019-09-20 | 09:12:23 | INFO | Msg: Thread this log LEVEL_INFO
+2019-09-20 | 09:12:23 | WARN | Msg: Thread this log LEVEL_WARN

@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>Ico/Catlog1.ico</file>
+        <file>Ico/close.ico</file>
+        <file>Ico/help.ico</file>
+        <file>Ico/log.ico</file>
+        <file>Ico/minimize.ico</file>
+        <file>Ico/network.ico</file>
+        <file>Ico/settings.ico</file>
+        <file>Ico/close_gray.ico</file>
+        <file>Ico/close_red.ico</file>
+        <file>Ico/help_gray.ico</file>
+        <file>Ico/help_white.ico</file>
+        <file>Ico/log_gray.ico</file>
+        <file>Ico/log_white.ico</file>
+        <file>Ico/min_gray.ico</file>
+        <file>Ico/min_white.ico</file>
+        <file>Ico/setting_gray.ico</file>
+        <file>Ico/setting_white.ico</file>
+        <file>Ico/test_gray.ico</file>
+        <file>Ico/test_white.ico</file>
+        <file>Ico/down_arrow.ico</file>
+        <file>Ico/down_arrow_16px.ico</file>
+        <file>Ico/TextbuttonStart.ico</file>
+        <file>Ico/TextbuttonStop.ico</file>
+        <file>Ico/ThreadPoolbuttonStart.ico</file>
+        <file>Ico/ThreadPoolbuttonStop.ico</file>
+    </qresource>
+</RCC>
