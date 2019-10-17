@@ -50,9 +50,9 @@ protected:
     void mouseReleaseEvent(QMouseEvent *event); //鼠标松开事件
 
 private:
-    DRAG_ABSOLUTE_POSITION MousePosition(QPoint point);
-    void PositionEvent(QMouseEvent *event);
-    void ShowWidget(DRAG_ABSOLUTE_POSITION position, QMouseEvent *event);
+    //DRAG_ABSOLUTE_POSITION MousePosition(QPoint point);
+    //void PositionEvent(QMouseEvent *event);
+    //void ShowWidget(DRAG_ABSOLUTE_POSITION position, QMouseEvent *event);
     void InitWidget( void );
 
 private:

@@ -8,7 +8,7 @@
 #include <QToolButton>
 #include <QDesktopServices>
 #include <QVBoxLayout>
-
+#include <QScreen>
 #include "Log/CatLog.h"
 #include "networkwidget.h"
 #include "logwidget.h"
@@ -74,7 +74,7 @@ void MainWidget::mousePressEvent(QMouseEvent *event)
 
 void MainWidget::mouseMoveEvent(QMouseEvent *event)
 {
-    if(!m_bPressed)
+    /*if(!m_bPressed)
     {
         PositionEvent(event);
     }
@@ -82,7 +82,7 @@ void MainWidget::mouseMoveEvent(QMouseEvent *event)
     if(m_bPosition == true && m_bPressed == true)
     {
         ShowWidget(m_yPosition, event);
-    }
+    }*/
 
     if(this->m_yNewPoint.ry() < ui->HeadWidget->height() &&
             this->m_yNewPoint.rx() < ui->MinmizeButton->pos().rx() &&
@@ -98,7 +98,7 @@ void MainWidget::mouseReleaseEvent(QMouseEvent *event)
     Q_UNUSED(event)
     m_bPressed = false;
 }
-
+/*
 MainWidget::DRAG_ABSOLUTE_POSITION MainWidget::MousePosition(QPoint point)
 {
     #define  DRAG_THE_SPACING 1
@@ -414,10 +414,14 @@ void MainWidget::ShowWidget(MainWidget::DRAG_ABSOLUTE_POSITION position, QMouseE
         default:
             break;
     }
-}
+}*/
 
 void MainWidget::InitWidget()
 {
+    QScreen *screen=QGuiApplication::primaryScreen ();
+    QRect Rect = screen->availableGeometry();
+
+    this->setGeometry((Rect.width() - 1200)/2, (Rect.height() - 600)/2, 1200, 600);
     setWindowFlags(Qt::FramelessWindowHint);
     setMouseTracking(true);
     ui->HeadWidget->setMouseTracking(true);
